@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descripción breve de tu sitio web">
+    <meta name="keywords" content="palabra clave 1, palabra clave 2, palabra clave 3">
     <title>Home Matrona - MR</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -14,7 +16,7 @@
             <a href="./pages/servicios.html">Servicios</a>
         </div>
         <div class="logo-center">
-            <a href=""></a><img src="./assets/Matrona-logo.svg" alt="Logo" class="logo">
+            <img src="./assets/Matrona-logo.svg" alt="Logo" class="logo">
         </div>
         <div class="column menu-right">
             <a href="./pages/formacion.html">Formación</a>
@@ -31,25 +33,21 @@
             </div>
             <div class="banner-right-column"></div>
         </div>
-        
-        <!-- Acerca de -->
-        <section>
-            <main>
-                <section class="acerca-de">
-                    <div class="acerca-de-left">
-                        <img src="./assets/acercade.png" alt="" class="acerca-de-image">
-                    </div>
-                    <div class="acerca-de-right">
-                        <article>
-                            <h2>Acerca de</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Nulla facilisi. Sed ut dolor nec erat lacinia ultricies.</p>
-                            <button class="boton-ver-mas">Ver más</button>
-                        </article>
-                    </div>
-                </section>
-            </main>
-        </section>
 
+        <!-- Acerca de -->
+        <section class="acerca-de">
+            <div class="acerca-de-left">
+                <img src="./assets/acercade.png" alt="Descripción de la imagen" class="acerca-de-image">
+            </div>
+            <div class="acerca-de-right">
+                <article>
+                    <h2>Acerca de</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Nulla facilisi. Sed ut dolor nec erat lacinia ultricies.</p>
+                    <button class="boton-ver-mas">Ver más</button>
+                </article>
+            </div>
+        </section>
+        
         <!-- Sección de Servicios -->
         <section class="servicios">
             <h2 class="titulo-principal">Servicios</h2>
@@ -72,28 +70,58 @@
                 </div>
             </div>
         </section>
-        
-        <!-- Formación -->
-        
+
+        <!-- Sección de Formación -->
+        <section class="formacion">
+            <div class="formacion-left">
+                <article>
+                    <h2>Formación</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Nulla facilisi. Sed ut dolor nec erat lacinia ultricies.</p>
+                    <button class="boton-ver-mas">Ver más</button>
+                </article>
+            </div>
+            <div class="formacion-right">
+                <img src="./assets/acercade.png" alt="Descripción de la imagen" class="formacion-image">
+            </div>
+        </section>
     </main>
     <footer>
-        <!-- Logo footer -->
-        <section>
-            <div>
-                <a href="./index.html"><img src="./assets/Matrona-logo.svg" alt="Logo"></a>
+        <div class="contenedor-footer">
+            <!-- Logo a la izquierda -->
+            <div class="logo-footer">
+                <a href="./index.html">
+                    <img src="./assets/Matrona-logo.svg" alt="Logo Matrona">
+                </a>
             </div>
-        </section>
-        <!-- RRSS Y Agendar hora -->
-        <section>
-            <div>
-                <a href="https://www.whatsapp.com/"><button>Agendar hora</button></a>
+
+            <!-- Redes sociales y botón "Agendar hora" a la derecha -->
+            <div class="rrss-agendar">
+                <!-- Redes sociales -->
+                <div class="iconos-redes">
+                    <a href="#Enlacependiente" target="_blank">
+                        <img src="./assets/instagram_5968776.png" alt="Instagram">
+                    </a>
+                    <a href="#Enlacependiente" target="_blank">
+                        <img src="./assets/linkedin_3536505.png" alt="LinkedIn">
+                    </a>
+                    <a href="#Enlacependiente" target="_blank">
+                        <img src="./assets/social_12942327.png" alt="Facebook">
+                    </a>
+                </div>
+
+                <!-- Botón "Agendar hora" -->
+                <div class="boton-footer">
+                    <a href="https://wa.me/56996220479" target="_blank">
+                        <button>Agendar hora</button>
+                    </a>
+                </div>
             </div>
-            <div>
-                <a href="#"><img src="./assets/instagram_5968776.png" alt=""></a>
-                <a href="#"><img src="./assets/linkedin_3536505.png" alt=""></a>
-                <a href="#"><img src="./assets/social_12942327.png" alt=""></a>
-            </div>
-        </section>
+        </div>
+
+        <!-- Derechos de autor -->
+        <div class="pie-footer">
+            <p>&copy; 2023 Nicole Cortés Matrona. Todos los derechos reservados.</p>
+        </div>
     </footer>
 </body>
 </html>
